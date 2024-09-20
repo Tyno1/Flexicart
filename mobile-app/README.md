@@ -26,32 +26,26 @@ This React Native application is part of a larger mobile commerce solution desig
 - Expo CLI
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/mobile-commerce-react-native-app.git
-   cd mobile-app
-   ```
 
-2. Install dependencies:
+
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Setup environment variables:
+2. Setup environment variables:
 
    - Locate the environment variables file in the submission link provided.
    - The file is in the backend folder and may be hidden.
-   - If you can't see the file, enable "Show hidden files" in the file explorer.
+   - rename the file from "env" to ".env".(Did not want to send it as .env becase it will be hidden)
    - Copy the .env file from the backend folder to the root directory of the mobile app project.
 
-4. Start the project:
+3. Start the project:
    ```bash
-   npm start
-   # or
-   yarn start
+   npx expo start
    ```
 
-5. Run on desired platform:
+4. Run on desired platform:
    - Press `s` to select expo Go
    - Press `a` for Android
    - Press `i` for iOS
@@ -60,7 +54,5 @@ This React Native application is part of a larger mobile commerce solution desig
 ## Testing
 Run tests using:
 ```bash
-npm test
-# or
-yarn test
+npm run test
 ```
