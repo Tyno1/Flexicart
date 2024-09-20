@@ -22,23 +22,18 @@ FlexiCart backend APIis  designed to support a mobile commerce solution (web int
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/flexicart-backend.git
-   cd backend
-
-2. Install dependencies
+1. Install dependencies
     npm install
 
-3. Setup environment variables:
+2. Setup environment variables:
 
    - Locate the environment variables file in the submission link provided.
-   - The file is in the backend folder and may be hidden.
-   - If you can't see the file, enable "Show hidden files" in your file explorer.
-   - Copy the .env file from the backend folder to the root directory of your mobile app project.
+   - The file is in the backend folder.
+   - rename the file from "env" to ".env" .(Did not want to send it as .env becase it will be hidden)
+   - Copy the .env file from the backend folder to the root directory of the mobile app project.
 
-4. Start the project
+3. Start the project
    npm run start:dev
 
-5. The backend is hosted on render.com
+4. The backend is hosted on render.com
 
