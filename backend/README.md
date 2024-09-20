@@ -30,8 +30,12 @@ FlexiCart backend APIis  designed to support a mobile commerce solution (web int
 2. Install dependencies
     npm install
 
-3. Setup environment variables
-   create .env file and insert variables
+3. Setup environment variables:
+
+   - Locate the environment variables file in the submission link provided.
+   - The file is in the backend folder and may be hidden.
+   - If you can't see the file, enable "Show hidden files" in your file explorer.
+   - Copy the .env file from the backend folder to the root directory of your mobile app project.
 
 4. Start the project
    npm run start:dev

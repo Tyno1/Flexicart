@@ -35,8 +35,12 @@ This React application is part of a larger mobile commerce solution designed for
 2. Install dependencies
     npm install
 
-3. Setup environment variables
-   create .env file and insert variables
+3. Setup environment variables:
+
+   - Locate the environment variables file in the submission link provided.
+   - The file is in the backend folder and may be hidden.
+   - If you can't see the file, enable "Show hidden files" in the file explorer.
+   - Copy the .env file from the backend folder to the root directory of the mobile app project.
 
 4. Start the project
    npm run start
