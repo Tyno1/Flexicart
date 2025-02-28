@@ -1,11 +1,11 @@
 import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Button from "./ui/Button";
+import Button from "src/components/atoms/buttons/Button";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "src/context/AuthContext";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
-import IconButton from "./ui/IconButton";
+import IconButton from "src/components/ui/IconButton";
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();
@@ -54,28 +54,28 @@ const Navbar: React.FC = () => {
           <div className="flex gap-4 items-center text-sm">
             <Button
               text="Dashboard"
-              variant="filled"
+              variant="solid"
+              color="white"
               onClick={() => navigate("/dashboard")}
-              className="bg-white text-black"
             />
             <Button
               text="logout"
-              variant="filled"
+              variant="solid"
+              color="primary"
               onClick={() => logout()}
-              className="bg-primary text-white"
             />
           </div>
         ) : (
           <div className="flex gap-4 items-center text-sm">
             <Button
               text="Register"
-              variant="filled"
+              variant="solid"
               onClick={() => navigate("/register")}
               className="bg-white text-black"
             />
             <Button
               text="login"
-              variant="filled"
+              variant="solid"
               onClick={() => navigate("/login")}
               className="bg-primary text-white"
             />
