@@ -2,7 +2,7 @@ import CartButton from "@/components/Buttons/CartButton";
 import CartIconTop from "@/components/Buttons/CartIconTop";
 import IconButton from "@/components/Buttons/IconButton";
 import LargeCard from "@/components/LargeCard";
-import { COLORS, SIZES } from "@/constants/themes";
+import { SIZES } from "@/constants/themes";
 import { AppDataContext } from "@/context/AppDataContext";
 import { AuthContext } from "@/context/AuthContext";
 import { CartContext } from "@/context/CartContext";
